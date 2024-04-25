@@ -20,7 +20,7 @@ spec:
     containers:
       - name : sbwebappcontainer
         image: ashokit/sb-logger-app
-	    imagePullPolicy: Always
+	imagePullPolicy: Always
         ports:
         - containerPort: 8080
 ---
